@@ -12,6 +12,8 @@ The Zero Shot Object Detection model is based on the pretrained model `microsoft
 
 ```
 from ultralytics import SAM
+model = SAM("sam2_b.pt")
+results = model("autoima/279_1440x960.jpg", project="segment_everything", save=True, save_txt=True)
 ```
 
 The SAM model `sam2_b` from ultralytics SAM is used for predicting all segments in one image.
