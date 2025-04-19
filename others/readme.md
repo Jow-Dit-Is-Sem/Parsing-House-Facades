@@ -17,7 +17,7 @@ Depending on the command, the output can be a text or a set of bounding boxes (r
 
 The command `<MORE_DETAILED_CAPTION>` produces a detailed text:
 
-  The image shows a two-story house with a red tiled roof. The house is painted in a light beige color and has a white exterior. There are three windows on the front of the house, each with white frames. The windows have black shutters and there is a small balcony on the second floor. A blue parking sign is attached to a pole on the right side of the image. A silver car is parked on the street next to the house. The sky is overcast and the ground is wet, suggesting that it has recently rained.
+  > The image shows a two-story house with a red tiled roof. The house is painted in a light beige color and has a white exterior. There are three windows on the front of the house, each with white frames. The windows have black shutters and there is a small balcony on the second floor. A blue parking sign is attached to a pole on the right side of the image. A silver car is parked on the street next to the house. The sky is overcast and the ground is wet, suggesting that it has recently rained.
 
 
 ## sam_segmentation.ipynb
