@@ -10,6 +10,10 @@ The Zero Shot Object Detection model is based on the pretrained model `microsoft
 
 ## sam_segmentation.ipynb
 
+```
+from ultralytics import SAM
+```
+
 The SAM model `sam2_b` from ultralytics SAM is used for predicting on one image.
 
 This took 300 seconds without GPU on one image.
