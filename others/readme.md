@@ -19,7 +19,7 @@ The command `<MORE_DETAILED_CAPTION>` produces a detailed text:
 
 If the command `<CAPTION_TO_PHRASE_GROUNDING>` is issued with the preceding text as text prompt, this result is obtained:
 
-![result of Florence-2](../assets/florence2.JPG "result of Florence-2")
+![result of Florence-2](../assets/florence_2.JPG "result of Florence-2")
 
 Even though the text contains many correct details, the result is disappointing. This approach is not useful for the Parsing House Facades project.
 
