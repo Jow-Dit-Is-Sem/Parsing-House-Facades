@@ -23,3 +23,7 @@ This took 300 seconds without GPU on one image.
 As a result, bounding boxes and segmentation masks are calculated for all the objects detected in the image.
 
 This is instance segmentation, e.g. each of the "windows" objects is considered a different class.
+
+![result of SAM segment everything](../assets/sam_segment_everything.JPG "result of SAM segment everything")
+
+
