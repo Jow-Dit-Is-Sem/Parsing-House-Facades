@@ -19,6 +19,6 @@ In the output directory `ds/grounding_dino_sam/full_output` four output images a
 The results obtained by mobile_sam were consistently better than those of sam2_b
 
 <img src="../assets/42132455_415_1440x9602.jpg" alt="42132455_415_1440x9602.jpg" style="width:500px;"/>
+<img src="../assets/42132455_415_1440x9602_m.jpg" alt="42132455_415_1440x9602_m.jpg" style="width:500px;"/>
 
-![42132455_415_1440x9602](../assets/42132455_415_1440x9602.jpg "42132455_415_1440x9602")
 
