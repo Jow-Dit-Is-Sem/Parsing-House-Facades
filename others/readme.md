@@ -14,10 +14,10 @@ The Zero Shot Object Detection model is based on the pretrained model `microsoft
 from ultralytics import SAM
 ```
 
-The SAM model `sam2_b` from ultralytics SAM is used for predicting on one image.
+The SAM model `sam2_b` from ultralytics SAM is used for predicting all segments in one image.
 
 This took 300 seconds without GPU on one image.
 
 As a result, bounding boxes and segmentation masks are calculated for all the objects detected in the image.
 
-This is instance segmentation, e.g. each of the "windows" objects is a different class.
+This is instance segmentation, e.g. each of the "windows" objects is considered a different class.
