@@ -2,6 +2,9 @@
 
 ```
 from transformers import AutoProcessor, AutoModelForZeroShotObjectDetection
+model_id = "IDEA-Research/grounding-dino-base"
+processor = AutoProcessor.from_pretrained(model_id)
+model = AutoModelForZeroShotObjectDetection.from_pretrained(model_id).to("cpu")
 ```
 
 The Zero Shot Object Detection model is based on the pretrained model `IDEA-Research/grounding-dino-base`.
