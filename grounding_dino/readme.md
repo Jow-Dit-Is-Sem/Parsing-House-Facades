@@ -22,6 +22,7 @@ they are stored in `ds/grounding_dino_vanilla/output`.
 ```
 from autodistill_grounding_dino import GroundingDINO
 from autodistill.detection import CaptionOntology
+base_model = GroundingDINO(ontology=CaptionOntology({"0":"0", "Door":"door", "Front Yard":"front yard", "Window":"window"}))
 ```
 
 ontology is door, front yard, window
