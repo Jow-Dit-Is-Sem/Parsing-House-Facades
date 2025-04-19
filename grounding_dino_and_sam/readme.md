@@ -18,15 +18,15 @@ In the output directory `ds/grounding_dino_sam/full_output` four output images a
 
 The results obtained by mobile_sam were consistently better than those of sam2_b.
 
+grounding-dino-base followed by mobile_sam, image with segmentation masks superposed:
 <img src="../assets/42132455_415_1440x9602.jpg" alt="42132455_415_1440x9602.jpg" style="width:500px;" />
-grounding-dino-base followed by mobile_sam, image with segmentation masks superposed
 
+same image with segmentation masks only:
 <img src="../assets/42132455_415_1440x9602_m.jpg" alt="42132455_415_1440x9602_m.jpg" style="width:500px;"/>
-same image with segmentation masks only
 
+grounding-dino-base followed by sam2_b, image with segmentation masks superposed:
 <img src="../assets/42132455_415_1440x9603.jpg" alt="42132455_415_1440x9603.jpg" style="width:500px;"/>
-grounding-dino-base followed by sam2_b, image with segmentation masks superposed
 
+same image with segmentation masks only:
 <img src="../assets/42132455_415_1440x9603_m.jpg" alt="42132455_415_1440x9603_m.jpg" style="width:500px;"/>
-same image with segmentation masks only
 
