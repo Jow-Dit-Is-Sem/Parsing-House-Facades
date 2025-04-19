@@ -1,5 +1,3 @@
-
-
 ## florence2_colab.ipynb
 
 ```
@@ -19,6 +17,11 @@ The command `<MORE_DETAILED_CAPTION>` produces a detailed text:
 
   > The image shows a two-story house with a red tiled roof. The house is painted in a light beige color and has a white exterior. There are three windows on the front of the house, each with white frames. The windows have black shutters and there is a small balcony on the second floor. A blue parking sign is attached to a pole on the right side of the image. A silver car is parked on the street next to the house. The sky is overcast and the ground is wet, suggesting that it has recently rained.
 
+If the command `<CAPTION_TO_PHRASE_GROUNDING>` is issued with the preceding text as text prompt, this result is obtained:
+
+![result of Florence-2](../assets/florence2.JPG "result of Florence-2")
+
+Even though the text contains many correct details, the result is disappointing. This approach is not useful for the Parsing House Facades project.
 
 ## sam_segmentation.ipynb
 
@@ -36,5 +39,3 @@ This approach was not really useful for the Parsing House Facades project:
 - this is instance segmentation, e.g. each of the "windows" objects is considered a different class. So there is no notion of a "windows" class.
 
 ![result of SAM segment everything](../assets/sam_segment_everything.JPG "result of SAM segment everything")
-
-
